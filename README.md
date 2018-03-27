@@ -17,11 +17,11 @@ subscriptions model =
     scroll ScrollEvent 
 ```
 
-Create a message that takes a Position type:
+2) Create a message that takes a Position type:
 
 ``` type Msg
     = NoOp
     | ScrollEvent Position 
 ```
 
-Looking for feedback. Again, this is a rough prototype and there are **lots** of improvements to be made.
+I am looking for feedback. Again, this is a rough prototype and there are **lots** of improvements to be made.
