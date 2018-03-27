@@ -28,7 +28,7 @@ import Task exposing (Task)
 -- POSITIONS
 
 
-{-| The Scroll Position of the window.
+{-| The Scroll Position of the window. _x_ is scrollX, _y_ is scrollY
 -}
 type alias Position =
     { x : Int
