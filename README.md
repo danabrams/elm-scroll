@@ -14,12 +14,14 @@ main =
 
 subscriptions : Model -> Sub Msg
 subscriptions model =
-    scroll ScrollEvent ```
+    scroll ScrollEvent 
+```
 
 Create a message that takes a Position type:
 
 ``` type Msg
     = NoOp
-    | ScrollEvent Position ```
+    | ScrollEvent Position 
+```
 
 Looking for feedback. Again, this is a rough prototype and there are **lots** of improvements to be made.
