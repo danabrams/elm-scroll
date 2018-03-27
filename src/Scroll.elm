@@ -1,4 +1,4 @@
-effect module Scroll where { subscription = MySub } exposing (..)
+effect module Scroll where { subscription = MySub } exposing (Position, scroll)
 
 {-| This library lets you listen to scroll events. It'll help you create pages
 that respond to scrolling, such as a page that has a header that becomes sticky when
@@ -9,7 +9,7 @@ It uses no native code, other than the Native code provide by Elm-Lang.
 
 # Scroll Position
 
-@docs Position, position
+@docs Position
 
 
 # Subscriptions

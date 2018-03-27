@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Scroll",
+    "comment": " This library lets you listen to scroll events. It'll help you create pages\nthat respond to scrolling, such as a page that has a header that becomes sticky when\nyou start scrolling.\n\nIt uses no native code, other than the Native code provide by Elm-Lang.\n\n\n# Scroll Position\n\n@docs Position\n\n\n# Subscriptions\n\n@docs scroll\n\n",
+    "aliases": [
+      {
+        "name": "Position",
+        "comment": " The Scroll Position of the window. _x_ is scrollX, _y_ is scrollY\n",
+        "args": [],
+        "type": "{ x : Int, y : Int }"
+      }
+    ],
+    "types": [],
+    "values": [
+      {
+        "name": "scroll",
+        "comment": " ",
+        "type": "(Scroll.Position -> msg) -> Platform.Sub.Sub msg"
+      }
+    ],
+    "generated-with-elm-version": "0.18.0"
+  }
+]
